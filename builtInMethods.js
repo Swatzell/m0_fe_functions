@@ -41,6 +41,17 @@
 var firstName = "Jeff";
 console.log(firstName.startsWith("J"));
 
+var middleName = "Nathaniel"
+var lastName = "Swatzell"
+console.log(middleName.toUpperCase())
+    // The toUpperCase() method is called on the variable middleName
+    // No arguments are passed; it will return the middle name in upper case letters.
+
+console.log(lastName.endsWith("ell"))
+    // The endsWith() method is called on the variable lastName
+    // an arguments ell is passed; it will return the word true because it indeed does end with ell
+
+
 
 
 // SECTION 3: Calling methods on variables assigned to arrays.
