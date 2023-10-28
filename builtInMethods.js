@@ -59,3 +59,9 @@ console.log(lastName.endsWith("ell"))
 // Call a different built-in JavaScript method on each of your variables. 
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array
 // Include comments above each method call explaining the impact and return value of that method.
+var ticketPrices = [87, 67, 99, 90, 87];
+console.log(ticketPrices.indexOf(67))
+    //the indexOf method is called will return what position 67 is in the array which is 1
+var students = ["David", "Adam", "Ryan", "Pat"]
+console.log(students.includes("cory"))
+    // The includes method is called asking if the array includes the name cory which it does not so it will return false
