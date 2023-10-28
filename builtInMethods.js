@@ -9,13 +9,21 @@
 "Hello World".toLowerCase();
 
 
-"Hello World".includes("Hello");
+
+// the includes() method is being called on the string "hello world"
+// An argument "hello" is being passed which is basically asking if "hello world" includes "hello" which it does so the return value will be true
 
 
 "Hello World".endsWith("Hello");
+// the endsWith() method is being called on the string "hello world" 
+// An argument "hello" is being passed which is basically asking if "hello world" ends with "hello" which it does not so the return value will be false
+
 
 
 "Hello World".endsWith("rld");
+// the endsWith() method is being called on the string "hello world" 
+// An argument "rld" is being passed which is basically asking if "hello world" ends with "rld" which it does so it would return true
+
 
 
 
