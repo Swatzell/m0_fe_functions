@@ -38,10 +38,11 @@ console.log(makeFreshPesto());
 
 
 //  EX 4:
-function average(num1, num2) {
-    var sum = num1 + num2;
+function average(sum, avg) {
+    var sum = 2 + 3;
     var avg = sum / 2;
 
     return avg
 }
-console.log(avg)
+console.log(average())
+    // I changed the arguments so that the function now tells you what the sum is divided by 2
