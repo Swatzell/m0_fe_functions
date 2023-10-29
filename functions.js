@@ -45,7 +45,7 @@ console.log(sentence)
 
 // 5: Write a function named checkStock that satisfies the following interaction pattern:
 // Hint: You will only write one checkStock function that checks the quantity and then prints the corresponding statement.
-
+// i got stuck on this section and would love to meet with someone about it this week
 // checkStock(4, "Coffee");
 // => "Coffee is stocked"
 
